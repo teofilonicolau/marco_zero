@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -10,48 +9,52 @@
     <title>Sinagoga Kahal Zur Israel</title>
   </head>
   <body>
-        <header >
+    <section id="texto">
+      <div class="responsive">
+        <header class="cabecalho">
+         <!-- <a class="logo" href="index.html"
+            ><img src="./logoMarcoZero.png" alt="logotipo"
+          /></a>-->
+          <h1>Sinagoga Kahal Zur Israel</h1>
           <nav>
-            <h1>Sinagoga Kahal Zur Israel</h1>
             <ul>
               <li><a href="#">Topo</a></li>
-              <li><a href="#arquelogicas">Meio</a></li>
+              <li><a href="#meio">Meio</a></li>
               <li><a href="#final">Final</a></li>
-              <li><a href="index.html" target="_blank">Marco Zero Recife</a></li>
             </ul>
           </nav>
         </header>
 
+        <div class="container">
           <main>
-              <h2>
-                A Sinagoga Kahal Zur Israel(em hebraico: קהל צור ישראל,
-                "Rocha de Israel")
-                representa um dos marcos mais importantes da presença 
-                judaica no Brasil-colônia. Ela está localizada na atual
-                Rua do Bom Jesus,chamada antigamente de Rua dos Judeus
-                , no bairro do Recife, e representou (de 1636 a 1654)
-                a primeira sinagoga oficial dos judeus que habitaram
-                as Américas.Posteriormente fundando uma cidade na 
-                América do Norte que chamaram de "Nova Amsterdam", a qual
-                futuramente viria a se chamar "Nova York". 
-              </h2>
+            <div class="headline">
+              <h1>
+                A Sinagoga Kahal Zur Israel(em hebraico: קהל צור ישראל, "Rocha de Israel")
+                representa um dos marcos mais importantes da presença judaica no
+                Brasil-colônia. Ela está localizada na atual Rua do Bom Jesus,
+                chamada antigamente de Rua dos Judeus, no bairro do Recife, e
+                representou (de 1636 a 1654) a primeira sinagoga oficial dos
+                judeus que habitaram as Américas.
+              </h1>
+            </div>
 
-            <h3 class="subtitle"></h3>
-            <section class="author">
-              <div><sub></sub><small> Por Teófilo Nicolau, aluno da Proz(texto do Wikipedia) em:23/11/2022 ,às 17:48</small></div>
-            </section>
-            <section class="social">  <ul class="social">
-              <li><a href=""
-                       ><img class="icon" src="./images/facebook.png" alt="Facebook"
-                     /></a></li>
-              <li><a href=""
-                       ><img class="icon" src="./images/twitter.png" alt="Twitter"
-                     /></a></li>
-              <li><a href=""
-                       ><img class="icon" src="./images/whatsapp.png" alt="Whatsapp"
-                     /></a></li>
-              </ul>
-            </section>
+            <h2 class="subtitle"></h2>
+            <div class="author">
+              Por Teófilo Nicolau, aluno da Proz(texto do Wikipedia) em:
+              <div><sub></sub><small>23/11/2022 ,às 17:48</small></div>
+              <div class="social-icons">
+                <a href=""
+                  ><img class="icon" src="./facebook.png" alt="Facebook"
+                /></a>
+                <a href=""
+                  ><img class="icon" src="./twitter.png" alt="Twitter"
+                /></a>
+                <a href=""
+                  ><img class="icon" src="./whatsapp.png" alt="Whatsapp"
+                /></a>
+              </div>
+            </div>
+            <div class="content">
               <p>
                 A frente da sinagoga ficava na Rua dos Judeus (Bockestraet) e,
                 anexas, funcionavam duas escolas religiosas (Talmud Torah eEtz
@@ -74,7 +77,7 @@
                 500 pessoas a Portugal (Moura, 2002).
               </p>
               <figure>
-                <img src="./images/khal azur israel.jpg azur israel.jpg" alt="Fachada da Sinagoga" />
+                <img src="./khal azur israel.jpg" alt="Fachada da Sinagoga" />
                 <figcaption>Fachada da Sinagoga</figcaption>
               </figure>
               <p>
@@ -107,7 +110,7 @@
                 povo brasileiro.
               </p>
               <figure>
-                <img src="./images/sinagoga interior.jpg interior.jpg"" alt="interior da sinagoga" />
+                <img src="./sinagoga interior.jpg"" alt="interior da sinagoga" />
                 <figcaption>Interior da Sinagoga</figcaption>
               </figure>
               
@@ -164,20 +167,24 @@
                 existência do templo. Por outro lado, os estudos cartográficos e
                 documentais, feitos pelo arquiteto José Luiz da Mota Menezes,
                 apontaram o lugar exato para o início das escavações
-                <a name="arquelogicas">arqueológicas.</a>
+                arqueológicas.
               </p>
+
+              <div class="cta">
                 Leia:
                 <a href="#">Voltar pro Topo </a>
+              </div>
               <figure>
                 <img
-                  src="./images/moveis.jpg"
+                  src="./moveis.jpg"
                   alt="Mobilia"
                 />
                 <figcaption>
                  Mobilia da Sinagoga
                 </figcaption>
               </figure>
-                <p>Para se ter conseguido localizar (bem como determinar) as
+              <p>
+                Para se ter conseguido localizar (bem como determinar) as
                 dependências do primeiro templo judaico do hemisfério ocidental,
                 foi preciso remover 750 toneladas de terra e mais de 1000 metros
                 quadrados de reboco. Ao longo dos séculos, os alicerces do
@@ -238,39 +245,205 @@
                 Centro de Documentação da Memória Judaica de Pernambuco.
               </p>
               <figure>
-                <img src="./images/interior sinagoga.jpg sinagoga.jpg"" alt="interior do templo" />
+                <img src="./interior sinagoga.jpg"" alt="interior do templo" />
                 <figcaption>Mais um pouco do interior do templo</figcaption>
               </figure>
+            </div>
           </main>
 
           <footer>
-            <section class="social-icons">
-              <ul class="social">
-                <li><a href=""
-                         ><img class="icon" src="./images/facebook.png" alt="Facebook"
-                       /></a></li>
-                <li><a href=""
-                         ><img class="icon" src="./images/twitter.png" alt="Twitter"
-                       /></a></li>
-                <li><a href=""
-                         ><img class="icon" src="./images/whatsapp.png" alt="Whatsapp"
-                       /></a></li>
-                </ul>
-            </section>
-               
+            <div class="rodape">
               <ul>
                 <li><a href="#">Topo</a></li>
                 <li><a href="#meio">Meio</a></li>
                 <li><a href="#">Seja um colaborarador</a></li>
-                <li></li>
               </ul>
 
+              <nav>
+                <!--<h2 class="final">Fique conectado !</h2> -->
+
+                <ul>
+                  <li>
+                    <a href="#"><img src="./facebook.png" alt="Facebook" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="./twitter.png" alt="Twitter" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="./whatsapp.png" alt="Whatsapp" /></a>
+                  </li>
+                </ul>
+              </nav>
+
               <small
-                ><section id="final"></section>
-                  Copyright © 2022 .desenvolvido por Teófilo Nicolau
+                ><section id="final">
+                  Copyright © 2020 .desenvolvido por Teófilo Nicolau
                 </section></small
               >
-          </footer> 
+            </div>
+          </footer>
+        </div>
+      </div>
     </section>
   </body>
 </html>
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700&family=Pacifico&family=Rancho&family=Reenie+Beanie&family=Rock+Salt&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
+
+html{
+    font-size: 10px;
+    font-family: 'Open Sans','Helvetica','Arial';
+    box-sizing: border-box;
+
+}
+
+.cabecalho {
+    background-image: url("./khal\ azur\ israel.jpg");
+    box-sizing: cover;
+    background-position: top center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5 px solid blue;
+    border-radius:20px 20px ;
+    box-shadow: 10px 5px 5px black;
+}
+.container {
+    max-width: 888px;
+    margin:auto;
+}
+#texto{
+    background-image: url("./papel\ antigo.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+h1,h2{
+    color: #111;
+}
+.headline {
+    font-size: 15px;
+    
+ 
+}
+.subtitle {
+    font-weight: normal;
+   
+
+}
+.social-icons {
+    margin-top: 10px;
+}
+.icon {
+    width: 20px;
+    padding: 10px 10px 10px 0;
+    
+}
+.author {
+    font-weight: bold;
+    font-size: 0,8em;
+
+}
+.content {
+    max-width: 648px;
+    margin: auto;
+
+} 
+p {
+    font-size: 20px;
+    line-height: 32px;
+}  
+
+
+
+nav{
+   background-color: white; 
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+a:hover{
+    background-color: rgb(244, 255, 240);
+    color:rgb(0, 0, 0);
+}
+
+#texto{
+
+}
+.responsive{
+
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+<div class="cta">
+                Leia:
+                <a href="#">Voltar pro Topo </a>
+              </div>
+.cta{
+    font-size: 20px;
+    margin: 30px 0;
+}
+figure {
+    padding: 0;
+    margin: 40 px 0;
+}
+figure>img {
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+   
+footer{
+    
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    border-bottom: 8 px solid rgb(185, 97, 37);
+    border: 2px solid rgb(26, 31, 26);
+    border-radius:20px 20px ;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px black;
+}
+
+#final{
+    font-size: 15px;
+    color:#000;
+    font-weight: bold;
+
+}
+@media only screen and (max-device-width : 700px){
+    #texto{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 20px;
+        overflow: hidden;
+
+    }
+
+}
+    
+
+
